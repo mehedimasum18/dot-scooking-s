@@ -135,6 +135,17 @@ img {
     padding-bottom: 30px;
 }
 
+.btn {
+    background-image: linear-gradient(#FD5332, #F4A460);
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+}
+
 .contact {
     display: flex;
     margin-bottom: 20px;
