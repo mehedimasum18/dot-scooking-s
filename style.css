@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#container {
+    background: url(images/Frame58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.row {
+    width: 50%;
+    align-items: center;
+}
+
+.row h1 {
+    padding-top: 100px;
+    margin-left: 93px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.row span {
+    color: #f7a030;
+}
+
+.row p {
+    padding-top: 50px;
+    margin-left: 93px;
+    margin-bottom: 90px;
+}
+
+.btns {
+    margin-left: 93px;
+    background-image: linear-gradient(#FD5332, #F4A460);
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+}
+
+.btns:hover {
+    background: #f0aa9e;
+    color: #f14527;
+}
+
+#about {
+    background-image: url(images/7.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.half_about {
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 30px;
+}
+
+.half_about h1 {
+    font-size: 40px;
+    color: sandybrown;
+    padding-bottom: 50px;
+    margin-top: 120px;
+}
+
+.half_about p a {
+    text-decoration: none;
+    color: #e22738;
+}
+
+.half_about p {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+#recipes_list {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#recipes_list h1 {
+    font-size: 50px;
+    color: tomato;
+    margin-bottom: 30px;
+}
+
+#box_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.box {
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+img {
+    width: 95%;
+    border-radius: 20px;
+}
+
+.bx_title h2 {
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 13px;
+}
+
+.bx_title p {
+    margin-top: 16px;
+    text-align: left;
+    margin-left: 13px;
+    padding-bottom: 30px;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 20px;
+    background: url(images/Frame57.jpg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact_half {
+    width: 45%;
+    margin-left: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+}
+
+.contact_half h1 {
+    text-align: center;
+    color: #df624c;
+    padding-bottom: 25px;
+}
+
+.contact_half h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contact_half p {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.contact_half h3 {
+    text-align: left;
+    color: #686060;
+    padding-bottom: 25px;
+}
+
+input,
+textarea {
+    width: 60%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#cont {
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+
+.social_subscriptions {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 4px 25px gray;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.social_subscriptions .youtube h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.social_subscriptions .youtube p {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.tomato_color {
+    color: #df624c
+}
+
+.red_color {
+    color: #e08918;
+}
+
+.footer h4 {
+    font-size: 19px;
+    color: thistle;
+    padding-bottom: 40px;
+}
