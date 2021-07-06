@@ -146,6 +146,11 @@ img {
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
 }
 
+.btn:hover {
+    background: #f0aa9e;
+    color: #f14527;
+}
+
 .contact {
     display: flex;
     margin-bottom: 20px;
